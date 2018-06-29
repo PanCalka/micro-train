@@ -37,7 +37,7 @@ public class ReservationServiceLongApplication {
 
 @RefreshScope
 @RestController
-class MessageRestController {lll
+class MessageRestController {
     @Value("${message}")
     private String msg;
 
